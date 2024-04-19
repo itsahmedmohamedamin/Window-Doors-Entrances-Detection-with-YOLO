@@ -13,3 +13,11 @@
 * Google Colab account
 * Kaggle API token
 * Roboflow account with API key
+
+# Installation
+
+```
+!pip install kaggle
+!pip install ultralytics
+!pip install roboflow
+```
