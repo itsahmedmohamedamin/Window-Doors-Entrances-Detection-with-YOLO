@@ -38,3 +38,25 @@ download_from_kaggle('<dataset-name>', '/path/to/kaggle.json')
 dataset = download_from_roboflow('workspace', 'project-name', version-number, 'your-roboflow-api-key')
 ```
 
+## Model Training
+
+> To train the model, specify the path to the dataset, batch size, number of epochs, and image size:
+
+```
+model = YOLO('yolov8m.yaml')
+results = model.train(data='/content/data.yaml', batch=6, epochs=50, imgsz=640)
+```
+
+## Detection
+
+> Load the trained model and perform detection on new images:
+
+```
+detector = YOLODetector('/path/to/best-model.pt', '/path/to/image.jpg')
+result_image = detector.predict_and_detect()
+detector.display_image(result_image)
+```
+
+## License
+
+> This project is open-sourced under the MIT License.
