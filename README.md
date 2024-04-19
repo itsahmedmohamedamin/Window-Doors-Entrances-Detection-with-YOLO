@@ -21,3 +21,7 @@
 !pip install ultralytics
 !pip install roboflow
 ```
+
+# Usage
+> Setup
+> First, upload your Kaggle API token as kaggle.json and adjust the paths and credentials accordingly in the script.
