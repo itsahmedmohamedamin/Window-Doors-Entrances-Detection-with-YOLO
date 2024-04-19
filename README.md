@@ -7,3 +7,9 @@
 * Download datasets from Kaggle and Roboflow
 * Training a YOLOv8 model for window and door detection
 * Detection with bounding boxes and class labels
+
+# Prerequisites
+
+* Google Colab account
+* Kaggle API token
+* Roboflow account with API key
