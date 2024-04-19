@@ -26,3 +26,15 @@
 ## Setup
 
 > First, upload your Kaggle API token as kaggle.json and adjust the paths and credentials accordingly in the script.
+
+## Downloading the Dataset
+
+> You can download datasets either from Kaggle or Roboflow:
+```
+# From Kaggle
+download_from_kaggle('<dataset-name>', '/path/to/kaggle.json')
+
+# From Roboflow
+dataset = download_from_roboflow('workspace', 'project-name', version-number, 'your-roboflow-api-key')
+```
+
